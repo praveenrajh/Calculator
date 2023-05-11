@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Water+Brush&display=swap');
+
+body{
+    display: grid;
+    place-content: center;
+    width:100vw;
+    padding: 30px;
+    margin: 0px;
+    height: 1500px;
+    background-image: url(https://img.freepik.com/premium-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg?w=1380);
+    background-position: -1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+   
+}
+img{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    height:590px;
+    width:500px;
+  margin-left: 100px;
+    border-radius: 20px;
+ 
+}
+input{
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    height: 100px;
+    width:450px;
+    margin-top: 10px;
+   border-radius: 50px;
+    background-color:  rgba(7, 10, 13, 0.3);
+    border: none;
+}
+.div2{
+    position: relative;
+    margin-left: 50px;
+    
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px;
+   grid-template-rows:130px 130px 130px 130px 130px ;
+   gap:10px;
+    height: 500px;
+    width:450px;
+    border-radius: 10px;
+    margin-bottom:20px ;
+    margin-top: 30px;
+}
+.buttonc{
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    background-color:  rgba(7, 10, 13, 0.3);
+    border: NONE;
+    height: 70px;
+    width:70px;
+    transition: 0.3s;
+}
+.buttonc:hover{
+    transform: scale(1.09);
+    background-color: rgba(7, 10, 13);
+}
+
+.button{
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color:  rgba(7, 10, 13, 0.3);
+    border: NONE;
+    height: 70px;
+    width:70px;
+    transition: 0.3s;
+}
+.button:hover{
+    transform: scale(1.09);
+    background-color: rgba(7, 10, 13);
+}
+.buttonX{
+    font-size: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color:  rgba(7, 10, 13, 0.3);
+    border: NONE;
+    height: 200px;
+    width:80px;
+    transition: 0.3s;
+}
+.buttonX:hover{
+    transform: scale(1.09);
+    background-color: rgba(7, 10, 13);
+}
+.buttony{
+    position: relative;
+   top:140px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(7, 10, 13, 0.3);
+    border: NONE;
+    height: 70px;
+    width:70px;
+    transition: 0.3s;
+}
+.buttony:hover{
+    transform: scale(1.09);
+    background-color: rgba(7, 10, 13);
+}
+
+.dropdown{
+    position: relative;
+   bottom: 870px;
+    left: 690px;
+    width:150px;
+    height: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    border:none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media(min-width:846px){
+    body{
+        
+          display: grid;
+          place-content: center;     
+          height: 100vh;
+          background-position: center;
+          width: 100vw;
+          background-position:center;
+          overflow-y:scroll ;
+          overflow-x: hidden;
+          
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+         height:400px;
+        width:500px;
+        margin-top: 400px;
+         margin-right: 250px;
+         border-radius: 20px;
+        margin-bottom: 650px;       
+     
+    }
+   .div2{
+    grid-template-rows:100px 100px 100px 100px 100px ;
+   } 
+   .buttony{
+    position: relative;
+   top:110px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(7, 10, 13, 0.3);
+    border: NONE;
+    height: 70px;
+    width:70px;
+    transition: 0.3s;
+}
+
+   
+
+
+}
